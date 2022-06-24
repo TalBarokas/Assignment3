@@ -1,0 +1,15 @@
+<nav id="item2">
+    <a href="home">Home</a>
+    <br>
+    <a href="contact">contact</a>
+    <br>
+    <a href="assignment3_1">Assignment3_1</a>
+    <br>
+    <a href="assignment3_2">Assignment3_2</a>
+    <br>
+    <a href="friends">friends</a>
+    <br>
+    {% if session['username'] %}
+        <a href="log_out">log_out</a>
+    {% endif %}
+</nav>
